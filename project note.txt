@@ -1,15 +1,28 @@
 
 
-https://gnews.io/#pricing
+Sites for News APIs ----->>>>
 
 
-https://app.newscatcherapi.com/auth/register
+1.https://gnews.io/
 
 
-newsapi.org
+2.https://app.newscatcherapi.com/
 
 
-publicapis  -----free
+3.newsapi.org
+
+
+4.publicapis  -----free
+
+5.Bing News Search API
+
+6.Google News API
+
+7.NewsomaticAPI
+ 
+8.NewsX API
+
+
 
 
 
@@ -36,3 +49,4 @@ steps to build express server ---->>>
 //to run server  ---+++  node server.js  or npm run start
 //can can port to 8080 in package.json     
 //server will be running on  http://localhost:8080/
+//npm i axios
