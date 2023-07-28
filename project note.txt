@@ -50,3 +50,4 @@ steps to build express server ---->>>
 //can can port to 8080 in package.json     
 //server will be running on  http://localhost:8080/
 //npm i axios
+//Build the server
