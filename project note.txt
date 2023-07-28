@@ -1,0 +1,38 @@
+
+
+https://gnews.io/#pricing
+
+
+https://app.newscatcherapi.com/auth/register
+
+
+newsapi.org
+
+
+publicapis  -----free
+
+
+
+** Note anything you want to note**
+
+For dummy image generator  --->>
+
+1.//https://dummyimage.com/sizes
+
+===>>
+https://dummyimage.com/400x400
+
+2.//https://via.placeholder.com/size
+
+====>
+https://via.placeholder.com/400x200
+
+
+
+steps to build express server ---->>>
+//build server.js
+//npm init -y
+//npm i express
+//to run server  ---+++  node server.js  or npm run start
+//can can port to 8080 in package.json     
+//server will be running on  http://localhost:8080/

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>News App</title>
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+    </head>
+    <body>
+
+        <nav>
+            <div class="main-nav container flex">
+                <a href="#" onclick="reload()" class="company-logo">
+                    <img src="/assets/img/newslogo.png" alt="News company logo">
+                </a>
+                <div class="nav-links">
+                    <ul class="flex">
+                        <li class="hover-link nav-item" id="politics"
+                            onclick="onNavItemClick('politics')">Politics</li>
+                        <li class="hover-link nav-item" id="Innovation"
+                            onclick="onNavItemClick('Innovation')">Innovation</li>
+                        <li class="hover-link nav-item" id="Space"
+                            onclick="onNavItemClick('Space')">Space</li>
+                        <li class="hover-link nav-item" id="Football"
+                            onclick="onNavItemClick('Football')">Football</li>
+                    </ul>
+                </div>
+                <div class="search-bar flex">
+                    <input id="search-text" type="text" class="news-input"
+                        placeholder="e.g. Sports">
+                    <button id="search-button" class="search-button">Search</button>
+                    
+                </div>
+
+            </div>
+        </nav>
+
+        <a href="https://www.linkedin.com/in/bhushan-thavakar/" target="_blank">
+            <div id="social-links">
+                <i class="fa-brands fa-linkedin-in fa-bounce"></i>
+            </div>
+        </a>
+
+        <main>
+            <div class="cards-container container flex" id="cards-container">
+
+                 <!-- Loader -->
+               
+                <div style=" display:flex;justify-content: center;margin:auto;" id="loader">
+                   
+                    <img src="/assets/img/circles.svg" style="filter: invert(1);" alt="Loading">
+                </div> 
+
+            </div>
+        </main>
+
+        <template id="template-news-card">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200"
+                        alt="news-image" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This is the Title</h3>
+                    <h6 class="news-source" id="news-source">End Gadget
+                        26/08/2023</h6>
+                    <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit
+                        amet consectetur adipisicing elit. Recusandae saepe quis
+                        voluptatum quisquam vitae doloremque facilis molestias
+                        quae ratione cumque!</p>
+                </div>
+            </div>
+        </template>
+
+        <footer class>
+
+            <div class="footercontent">
+
+                <p class="fp">Made with &nbsp; <i
+                        class="fa-solid fa-heart fa-flip"
+                        style="color: #ff0000;"></i> &nbsp; by Bhushan</p>
+                <a class="lk"
+                    href="https://www.linkedin.com/in/bhushan-thavakar/"
+                    target="_blank">
+                    <i class="fa-brands fa-linkedin-in fa-bounce"></i>
+                </a>
+                <p class="fp1"> Copyright &copy; 2023 News App</p>
+            </div>
+
+        </footer>
+
+        <script src="/assets/js/style.js"></script>
+
+    </body>
+</html>
